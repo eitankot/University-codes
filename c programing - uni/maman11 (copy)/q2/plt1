@@ -1,0 +1,19 @@
+Please enter a code line to check if the brackets are orderly
+ it will get into the checker until you press ctrl+d or the text file will get to EOF.
+#include <stdio.h> OK
+
+/*[[[))) */ OK
+
+if (x > y) OK
+
+{ OK
+
+ z[(1)] = 0; OK
+
+ printf("x>y\n"); OK
+
+} OK
+
+abc(1+1); OK
+
+The code in total is OK

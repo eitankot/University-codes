@@ -1,0 +1,2 @@
+put this in the terminal:
+./myseek 21 file1.txt filee2.txt file3.txt test/file4.txt

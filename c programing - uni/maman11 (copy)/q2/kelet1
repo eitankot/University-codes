@@ -1,0 +1,8 @@
+#include <stdio.h>
+/*[[[))) */
+if (x > y)
+{
+ z[(1)] = 0;
+ printf("x>y\n");
+}
+abc(1+1);

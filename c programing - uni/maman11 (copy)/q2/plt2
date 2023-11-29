@@ -1,0 +1,15 @@
+Please enter a code line to check if the brackets are orderly
+ it will get into the checker until you press ctrl+d or the text file will get to EOF.
+#include <stdio.h> OK
+
+ OK
+
+int main() OK
+
+{ OK
+
+	printf("[(["){}{ Not
+
+} OK
+
+The code in total is Not ok

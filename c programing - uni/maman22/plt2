@@ -1,0 +1,43 @@
+please enter a command to start working.
+
+print_comp A
+0.000000
+print_comp B
+0.000000
+print_comp C
+0.000000
+read_comp A, 45.1, -23.75
+print_comp A
+45.100000 + (-23.750000)i
+read_comp B, 54.2, 3.56
+print_comp B
+54.200000 + (3.560000)i
+read_comp C, 0, -1
+print_comp C
+(-1.000000)i
+add_comp A, B
+99.300000 + (-20.190000)i
+sub_comp C, A
+-45.100000 + (22.750000)i
+sub_comp B, B
+0.000000
+sub_comp D, A 
+-45.100000 + (23.750000)i
+mult_comp_real A, 2.51
+0.000000
+mult_comp_img A, -2.564
+0.000000
+mult_comp_comp A, B
+2528.970000 + (-1126.694000)i
+mult_comp_comp E , C
+0.000000
+abs_comp A
+50.971291
+abs_comp B
+54.316789
+abs_comp C
+1.000000
+abs_comp F
+0.000000
+stop
+the program has been stoped.

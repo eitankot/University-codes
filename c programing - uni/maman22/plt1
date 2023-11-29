@@ -1,0 +1,52 @@
+please enter a command to start working.
+
+read_comp G, 3.1, 6.5
+Undefined complex variable
+
+read_comp a, 3.6, 5.1
+Undefined complex variable
+
+do_it A, B
+Undefined command name
+
+Add_Comp A, C
+Undefined command name
+
+read_comp A, 3.5, xyz
+Invalid parameter – not a number
+
+read_comp A, 3.5
+Missing parameter 
+
+read_comp A, 3.5, -3,
+Extraneous text after end of command 
+
+add_comp B
+Missing parameter 
+
+print_comp C, D
+Extraneous text after end of command 
+
+sub_comp F,,D
+Multiple consecutive commas 
+
+mult_comp_comp F D
+Missing comma
+
+mult_comp_real, A, 2.5
+Illegal comma
+
+mult_comp_img A, B
+Invalid parameter – not a number
+
+abs_comp
+Missing parameter 
+
+abs_comp 2.5
+Undefined complex variable
+
+stop AExtraneous text after end of command 
+
+
+
+The program has not been stoped right.
